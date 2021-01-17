@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d5d3ce16296cf1e6b5662b2d4c257b0f34c5292189952a10bb8b38ee564d97aa.html">Escenarios A Automatizar</a></span>
+                > <span class="truncate-60"><a
+                    href="6385630b95c02effc644b44441f520ee0b42d54dc45c25489e9a0379098d2caf.html">Validacion de que la plataforma ofrezca servicio de viaje en carro </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-01-2021 15:35</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Escenarios A Automatizar </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4e9343d20c172a4f0517b74412de045d42d0e6124672772f601b44619d0d2e2f.html">Tag3
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validacion de que la plataforma ofrezca servicio de viaje en carro
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0f33a253d5faf088fb6c5aad720b7aad230717ac7050c888a004624d44e7d448.png" title="Given Ingreso a la plataforma" width="1366"/>
+                <img src="2637e32ea350e14e872060cf4e9152374898efa59c61536c31e722551a302b60.png" title="Jose opens the Travelocity home page" width="1366"/>
+                <img src="6a5d0ff51e5fbe2aa544ab7c3a757b51e177726b5e8f06e98b7025a3115aa52a.png" title="And Busco la opcion de carros" width="1366"/>
+                <img src="6a5d0ff51e5fbe2aa544ab7c3a757b51e177726b5e8f06e98b7025a3115aa52a.png" title="Jose clicks on Opcion validar servicio de viajes en carro" width="1366"/>
+                <img src="2acf9c95ccc7e91923543735efa2c5f65d37ef16956564793d93b62c92c1851d.png" title="And Se escoge las ciudad de inicio y destino en el carro" width="1366"/>
+                <img src="f46bec9441d35f7ef61ba3d8813ed7a2ed8ddff5032b96049435d2a34dc4f3bd.png" title="Jose clicks on Opcion para validar recogida en ciudad de partida" width="1366"/>
+                <img src="58a5d20235dcc8ad6b281c2c09e4c8d119952fdd4642dc389a8f06b317127f73.png" title="Jose enters 'Medellin (MDE - Jose Maria Cordova Intl.)' into Opcion para escribir la ciudad de origen" width="1366"/>
+                <img src="e69ae0c73c8e7df038203321107b52bb582bffb9cfa375decf1e12b5c33d5a41.png" title="Jose clicks on Opcion para seleccionar ciudad de origen" width="1366"/>
+                <img src="924c3a6fb072cd446e332a959081d59645c96c087717a2a7833d0ffe521fa7bb.png" title="Jose clicks on Opcion para validar recogida en ciudad de devuelta" width="1366"/>
+                <img src="65cc0db735e113664c700135ce44d968de11abd8d4218080d85189ae06108228.png" title="Jose enters 'Bogota (BOG - El Dorado Intl.)' into Opcion para escribir la ciudad de devuelta" width="1366"/>
+                <img src="2acf9c95ccc7e91923543735efa2c5f65d37ef16956564793d93b62c92c1851d.png" title="Jose clicks on Opcion para seleccionar ciudad de devuelta" width="1366"/>
+                <img src="4af2ae26d0d069843578496a224f941b93a67616a02f79db45d2e895d999d3e4.png" title="When Doy clic en el boton Search" width="1366"/>
+                <img src="4c822f38b97b897f114b842f70c893cb1cac7c9593f790ffab8f7c3717b4f15d.png" title="Jose clicks on Boton para hacer busqueda de viaje en carro" width="1366"/>
+                <img src="2b605d8c1737ccb90097b27c534645f43c8c1b9f02a2c029507d8dd2f628e10c.png" title="Then Se valida estar en el formulario del ofrecimiento de servicio de viaje en carro" width="1366"/>
+                <img src="1a85921f2507c546a9a99920c9bc7e3f57ae2a80a7ace648aeab149b26426d83.png" title="Then la respuesta carro should be 'Car rental companies charge this when drop-off and pick-up locations differ.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

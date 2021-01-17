@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d5d3ce16296cf1e6b5662b2d4c257b0f34c5292189952a10bb8b38ee564d97aa.html">Escenarios A Automatizar</a></span>
+                > <span class="truncate-60"><a
+                    href="b71791713db0b9f55e2b19404ecae8473601984128b77b2e29d198e3e574a5bb.html">Validacion de busqueda de hoteles desde la plataforma en una determinada ciudad </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-01-2021 15:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Escenarios A Automatizar </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="724655445f0b239bcabf95df03d1ac1f6e86fc3f5eb58ee6d9f6a94e8e7a8781.html">Tag5
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validacion de busqueda de hoteles desde la plataforma en una determinada ciudad
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2637e32ea350e14e872060cf4e9152374898efa59c61536c31e722551a302b60.png" title="Given Ingreso a la plataforma" width="1366"/>
+                <img src="2637e32ea350e14e872060cf4e9152374898efa59c61536c31e722551a302b60.png" title="Jose opens the Travelocity home page" width="1366"/>
+                <img src="3db4ce51a93d8bfbaba66b7dc7ae68336037b9e71eff18c15d5b125413f15a61.png" title="And Busco la opcion de hoteles" width="1366"/>
+                <img src="0f33a253d5faf088fb6c5aad720b7aad230717ac7050c888a004624d44e7d448.png" title="Jose clicks on Opcion para entrar a la seccion de hoteles" width="1366"/>
+                <img src="8a853db64a8af20aadf535132e625f4bbd62655a6ee5265d65607f4543129366.png" title="Jose clicks on Opcion para buscar opciones de hoteles en diferentes ciudades" width="1366"/>
+                <img src="61d10935b6b39b3fd9da9f0baeb0ca82f4d9466d6cd4dd88db13c27ebff1027f.png" title="And Se escoge la ciudad deseada" width="1366"/>
+                <img src="b8f91f1b7d9f57045c4bb4eefce7b02d97cd47752e68f1e4a7ca8979922b0bce.png" title="Jose enters 'Cartagena (CTG - Rafael Nunez Intl.)' into Opcion para escribir la ciudad a buscar" width="1366"/>
+                <img src="61d10935b6b39b3fd9da9f0baeb0ca82f4d9466d6cd4dd88db13c27ebff1027f.png" title="Jose clicks on Opcion para seleccionar la ciudad buscada" width="1366"/>
+                <img src="298c8530f420bb3736da2ff96129e496da6b0a9aa30eaf03783b5509e8fafe1b.png" title="And Se agrega un servicio adicional" width="1366"/>
+                <img src="a989cf71976ce139c939aaa29f1b6b43f52735f405bd7ad85849949ad712c47f.png" title="Jose clicks on Opcion para seleccionar la ciudad buscada" width="1366"/>
+                <img src="02ca713ca5380f5aa8d2b5a2ccc1b3087709a42af71804a1ba3322067e66fc9c.png" title="When Doy clic en el boton Search" width="1366"/>
+                <img src="f915df3ac2d17bcb2a40d3d27206b071c465d35072bab43a9e8b3d28b703ff07.png" title="Jose clicks on Boton para hacer busqueda de viaje en carro" width="1366"/>
+                <img src="02ca713ca5380f5aa8d2b5a2ccc1b3087709a42af71804a1ba3322067e66fc9c.png" title="Then Se valida el ofrecimiento de hoteles en la ciudad buscada" width="1366"/>
+                <img src="02ca713ca5380f5aa8d2b5a2ccc1b3087709a42af71804a1ba3322067e66fc9c.png" title="Then la respuesta busqueda hotel should be 'We recommend booking a stay with free cancellation in case your plans change.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
